@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "DM Sans";
+    src: url(fonts/DMSans-VariableFont_opsz\,wght.ttf);
+}
+
+.navbar {
+    width: 100%;
+    color: #202020;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-family: "DM Sans";
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 0px;
+}
+
+#items {
+    display: flex;
+    list-style: none;
+    padding: 0px 15px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.logo {
+    width: 60%;
+}
+
+.fa {
+    padding: 0px 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.button {
+    background-color: #5fcac7;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 0px 15px;
+    margin: 0px 9px;
+    border-radius: 50px;
+    border: none;
+    height: 40px;
+}
+
+.button:hover {
+    background-color: rgba(49, 146, 144, 0.9);
+}
+
+.specialties {
+    text-align: center;
+    font-size: 58px;
+    font-family: "DM Sans";
+    margin: 0px 0px 35px;
+}
+
+.seca {
+    background-image: url(images/maxresdefault.jpg);
+    opacity: 0.4;
+    padding: 130px 0px 150px 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bakery {
+    font-size: 72px;
+    font-family: "DM Sans";
+    color: #ffffff;
+}
+
+.hours {
+    font-size: 22px;
+    font-family: "DM Sans";
+    margin: 30px 0px;
+    color: #ffffff;
+}
+
+.sweetbtn1 {
+    color: #ffffff;
+    background-color: #5fcac7;
+    font-size: 22px;
+    font-family: "DM Sans";
+    margin: 7px 13px;
+    padding: 0px 40px;
+    border-radius: 50px;
+    width: 230px;
+    height: 55px;
+}
+
+#cake {
+    margin-top: 100px;
+    background-image: url(images/bakery4-5-1200x800.jpg);
+    background-size: cover;
+
+}
+
+.cakes1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.cake {
+    width: 204px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.cakes {
+    text-align: center;
+    margin: 25px 50px 0px;
+    color: #4B4342;
+    font-family: "DM Sans";
+    font-size: 22px;
+}
+
+/* .sec2{
+ background-image: url(images/bakery4-5-1200x800.jpg);
+
+}  */
+.bgimg {
+    /* opacity: 0.8; */
+    background-color: rgb(95, 202, 199);
+    /* background-image:  url(images/bakery12-3-1200x800.jpg);   */
+    /* background-color: aqua; */
+    /* padding: 70px 100px 70px 100px; */
+
+}
+
+.sec3 {
+    background-image: url(images/bakery12-3-1200x800.jpg);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container1 {
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 430px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container6 {
+    color: #ffffff;
+    font-size: 42px;
+    font-family: "DM Sans";
+    text-align: center;
+    margin: 25px 0px 0px;
+}
+
+.container7 {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "DMSans";
+    margin: 25px 0px 0px;
+}
+
+.con8 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.container8 {
+    font-family: "DM Sans";
+    font-size: 18px;
+    margin: 80px 7px 14px 7px;
+    border: 2px solid #ffffff;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 2px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.con9 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.container8:hover {
+    background-color: #ffffff;
+}
+
+.con9:hover {
+    color: rgb(95, 202, 199);
+}
+
+.creation {
+    height: 600px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.creation0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation1 {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creation2 {
+    font-size: 42px;
+    color: #4B4342;
+    font-family: "DM Sans";
+}
+
+.creation3 {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+
+}
+
+.creationcake {
+    width: 255px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.creation3a {
+    display: flex;
+    gap: 20px;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/bakery24-1-1200x800.jpg);
+    padding: 40px 0px 110px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.recipe1a {
+    color: #4B4342;
+    font-size: 42px;
+    font-family: "DM Sans";
+    margin: 25px 0px 0px;
+}
+
+.recipe2a {
+    color: #4B4342;
+    font-size: 22px;
+    font-family: "DM Sans";
+    margin: 25px 0px 0px;
+}
+
+.recipe2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4B4342;
+    font-size: 22px;
+    font-family: "DM Sans";
+}
+
+.pudding {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px;
+}
+
+.eve {
+    color: #4B4342;
+    font-size: 22px;
+    font-family: "DM Sans";
+    margin: 20px 0px 0px;
+    text-align: center;
+}
+
+.clients {
+    background-image: url(images/bakery26-1200x800.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 40px 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.clientsdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.faces {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.clients1 {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: "DM Sans";
+    gap: 30px;
+}
+
+span {
+    color: #EBEAED;
+}
+
+.heading {
+    font-size: 42px;
+    font-family: "DM Sans";
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.tablecake {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width: 650px;
+    height: 1000px;
+
+}
+
+.data {
+    display: flex;
+    text-align: center;
+}
+
+th {
+    color: #919dab;
+    font-size: 30px;
+    font-family: "DM Sans";
+    text-align: left;
+    padding-left: 30px;
+}
+
+td {
+    color: #4B4342;
+    font-size: 20px;
+    font-family: "DM Sans";
+}
+
+.specialcakes {
+    color: #4B4342;
+    font-size: 42px;
+    font-family: "DM Sans";
+    margin-left: 140px;
+    padding-left: 40px;
+}
+
+.table {
+    background-color: #ffffff;
+    padding: 80px 0px 80px 10px;
+}
+
+.ques1 {
+    font-size: 22px;
+    font-family: "DM Sans";
+    color: #4B4342;
+}
+
+.information {
+    font-size: 20px;
+    color: #5fcac7;
+    margin: 10px 0px 0px;
+}
+
+.ques {
+    background-color: #F3F4F2;
+    margin: 48px 0px 0px 90px;
+    padding: 35px;
+}
+
+.fa {
+    width: 50px;
+}
