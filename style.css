@@ -35,14 +35,14 @@
     width: 60%;
 }
 
-.fa {
-    padding: 0px 5px;
-}
-
 .nav-link {
     text-decoration: none;
-    padding: 20px;
+    padding: 5px 5px 5px 5px;
     font-size: 18px;
+    color: #202020;
+}
+.nav-link:hover{
+    border-bottom: 3px solid #5fcac7;
 }
 
 .button {
@@ -55,6 +55,13 @@
     border: none;
     height: 40px;
 }
+i{
+    color: #202020;
+    padding: 0px 5px 10px 0px;
+}
+i:hover{
+    border-bottom: 3px solid #5fcac7;
+}
 
 .button:hover {
     background-color: rgba(49, 146, 144, 0.9);
@@ -65,14 +72,20 @@
     font-size: 58px;
     font-family: "DM Sans";
     margin: 0px 0px 35px;
+    color: #4B4342;
+    padding-top: 50px;
 }
 
 .seca {
     background-image: url(images/maxresdefault.jpg);
-    opacity: 0.4;
+    opacity: 0.6;
     padding: 130px 0px 150px 70px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #000000;
+}
+.sec1{
+    background-color:#4B4342;
 }
 
 .bakery {
@@ -207,15 +220,14 @@
     text-decoration: none;
     color: #ffffff;
 }
+.con9:hover{
+    color: #5fcac7;
+}
 
 .container8:hover {
     background-color: #ffffff;
+   color: rgb(95, 202, 199); 
 }
-
-.con9:hover {
-    color: rgb(95, 202, 199);
-}
-
 .creation {
     height: 600px;
     padding-top: 100px;
@@ -323,7 +335,6 @@
     margin: 20px 0px 0px;
     text-align: center;
 }
-
 .clients {
     background-image: url(images/bakery26-1200x800.jpg);
     background-size: cover;
@@ -383,7 +394,9 @@ table {
     border-spacing: 10px;
     width: 650px;
     height: 1000px;
-
+}
+tr{
+    border-bottom: 1px solid lightgray;
 }
 
 .data {
@@ -439,3 +452,114 @@ td {
 .fa {
     width: 50px;
 }
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #2a2a2a;
+    padding: 85px 0px 55px 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    color: #ffffff;
+    margin: 0px 16px;
+    font-size: 16px;
+    font-family: "DM Sans";
+}
+.copy{
+    width: 60px;
+    height: 60px;
+    padding-bottom: 20px;
+}
+.one{
+    font-family: "DM Sans";
+    font-size: 16px;
+    color: #ffffff;
+    padding-bottom: 5px;
+
+}
+.copyrights{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+.orders{
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0px 15px;
+    color: #ffffff;
+}
+.sweet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:  url(images/bakery3-2-1200x800.jpg);
+    width: 100%;
+    height: 500px;
+    padding: 25px 0px 35px 0px;
+    background-color: #eeeeee;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: #000000;
+
+
+}
+h1{
+    color: #ffffff;
+    font-size: 58px;
+    font-family: "DM Sans";
+    padding-bottom: 50px;
+}
+input{
+    width: 293px;
+    height: 60px;
+    padding: 0px 25px;
+    background-color: transparent;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid rgba(235, 234, 237,0.4);
+    border-radius: 60px;
+    
+}
+.subbtn{
+    color: #ffffff;
+    background-color: #5fcac7;
+    font-size: 20px;
+    font-family: "DM Sans";
+    padding: 0px 40px;
+    margin-left: 30px;
+    border-radius: 50px;
+    width: 179px;
+    height: 65px;
+    font-weight:bold;
+}
+.followus{
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 16px;
+    padding: 50px 0px 25px;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.youtube{
+    margin: 0px 15px;
+}
+.fa-brands{
+    border: 3px solid rgba(235, 234, 237,0.5);
+    border-radius: 50%;
+    padding: 8px;
+}
+.fa-brands:hover{
+border: 3px solid white;
